@@ -1,5 +1,6 @@
 # Forming-a-Magic-Square---HackerRank
 Link to problem: https://www.hackerrank.com/challenges/magic-square-forming/problem
+
 Link to my solution: https://www.hackerrank.com/challenges/magic-square-forming/forum/comments/981593
 
 ------------------------------------------
@@ -19,7 +20,5 @@ Having all this data we can start solving the magic square just like a reduced S
 
 We are not done yet. Just like we mentioned before, the number 9 can go in any of the 4 middle edges of the square. We are not writing all these down, but we can demonstrate that we will only have two solutions for each position of the number 9 in any of the middle edges. These solutions will be similar to the 2 solutions we have already found but “rotated” depending where the number 9 is located. We can easily visualize this by imagining we have a rubik's cube on our hand and we start rotating the front side of the cube clockwise. All the numbers (in this case the colors) will still have the same neighbors so the sum will not change. We can rotate this front side 4 times until it becomes the same, so we will have a total of 2*4 = 8 different magic squares.
 
-Now it is just a matter of coding an algorithm that will rotate these 2 solutions clockwise to get all the possible magic squares and then compare all these 8 magic squares with the given matrix. Finally we will stay with the magic square that will require less cost. The code looks like this:
-
-
+Now it is just a matter of coding an algorithm that will rotate these 2 solutions clockwise to get all the possible magic squares and then compare all these 8 magic squares with the given matrix. Finally we will stay with the magic square that will require less cost. The code can be seen [here](https://github.com/gregomaspero/Forming-a-Magic-Square---HackerRank/blob/main/solution.py)
 
