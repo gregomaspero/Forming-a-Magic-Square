@@ -4,6 +4,8 @@ Link to problem: https://www.hackerrank.com/challenges/magic-square-forming/prob
 Link to my solution: https://www.hackerrank.com/challenges/magic-square-forming/forum/comments/981593
 
 ------------------------------------------
+PROBLEM: 
+
 <img width="778" alt="Screen Shot 2021-07-16 at 4 13 23 PM" src="https://user-images.githubusercontent.com/59319786/125997613-85be1414-e317-4fa6-a791-5de0e2b2a857.png">
 
 DETAILED Mathematical + Coding explanation by Gregorio Maspero:
